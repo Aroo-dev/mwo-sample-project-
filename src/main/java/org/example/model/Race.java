@@ -1,9 +1,10 @@
 package org.example.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Data;
 
 import java.util.Date;
-
+@Data
 public class Race{
     @JsonProperty("session_key")
     public int sessionKey;
